@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MapBuilder">
+      <UniqueIdentifier>{dbc328de-8c3c-40a4-941e-d01ef9402ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{14c72ec9-64f8-4104-8fea-1cda0e84d4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Levels">
+      <UniqueIdentifier>{ce67396b-9e77-43f8-9dc2-06ec07eadb3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components">
+      <UniqueIdentifier>{e05fce32-24ca-4413-8409-89c3c1d8a4e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs">
+      <UniqueIdentifier>{b1b9b1cd-ecc5-4c1d-a325-86b5a7958d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\Player">
+      <UniqueIdentifier>{06964d82-cc14-4b93-bfe6-f57587dd41d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\PlayerComponents">
+      <UniqueIdentifier>{0f6f8d1f-5dcb-4691-9810-745bd78b49c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{4ae755c7-5b04-45bb-8d7a-7874c02ac9dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Enemy">
+      <UniqueIdentifier>{d2483fa0-4c1a-4eaf-a4fb-67142b2ecc54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\Enemy">
+      <UniqueIdentifier>{66811c54-fd1d-4d05-9bcc-a227cdb2107f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Components\Phyics">
+      <UniqueIdentifier>{2ea853db-4c4f-4939-b15e-6ccc5bc879fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\Destructables">
+      <UniqueIdentifier>{43c5500c-7dac-4356-b1d4-4ad8d99a47f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Curves">
+      <UniqueIdentifier>{0c2fb2e1-eaa2-4b62-8363-e5e055419a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\VFX">
+      <UniqueIdentifier>{de3ac1f6-1c98-4164-9736-b55aff4e8d67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prefabs\NPCS">
+      <UniqueIdentifier>{9badb651-a73d-458f-9275-d598106bc04f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapBuilder.cpp">
+      <Filter>MapBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObject.cpp">
+      <Filter>MapBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>MapBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="SnippingTool.cpp">
+      <Filter>MapBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIText.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIShape.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="PhyicsBody.cpp">
+      <Filter>Components\Phyics</Filter>
+    </ClCompile>
+    <ClCompile Include="RectCollider.cpp">
+      <Filter>Components\Phyics</Filter>
+    </ClCompile>
+    <ClCompile Include="SphereCollider.cpp">
+      <Filter>Components\Phyics</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIinputTab.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjectStatsUI.cpp">
+      <Filter>MapBuilder</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyCollider.cpp">
+      <Filter>Components\Phyics</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>Components\Phyics</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteRenderer.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Prefabs\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerMovement.cpp">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PhysicsEngine.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SpriteManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIToggle.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObjectManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerAnimationHandler.cpp">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerCombat.cpp">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFollower.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Damageable.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Crawlid.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy01.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Gruzzer.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy03.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy02.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="TikTik.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Level01.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy05.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="HuskBully.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy06.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Goam.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableWeed.cpp">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableBarrel.cpp">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableCar.cpp">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableSpear.cpp">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleSystem.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemySplashParticleEffect.cpp">
+      <Filter>Prefabs\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Curve.cpp">
+      <Filter>Curves</Filter>
+    </ClCompile>
+    <ClCompile Include="Lift.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy04.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="AspidHunter.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableObject.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Level02.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level03.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerStats.cpp">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIimage.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinParticleObject.cpp">
+      <Filter>Prefabs\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerDataManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldFireLightParticles.cpp">
+      <Filter>Prefabs\VFX</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy07.cpp">
+      <Filter>Components\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Vengefly.cpp">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc01.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Cornifer.cpp">
+      <Filter>Prefabs\NPCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Level04.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level05.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="KillZone.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraZone.cpp">
+      <Filter>Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Level06.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="DestructableGeo.cpp">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClCompile>
+    <ClCompile Include="Level07.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level09.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Level08.cpp">
+      <Filter>Levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Chair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapBuilder.h">
+      <Filter>MapBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObject.h">
+      <Filter>MapBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>MapBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="SnippingTool.h">
+      <Filter>MapBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="json.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIText.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjectStatsUI.h">
+      <Filter>MapBuilder</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIShape.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PhyicsBody.h">
+      <Filter>Components\Phyics</Filter>
+    </ClInclude>
+    <ClInclude Include="RectCollider.h">
+      <Filter>Components\Phyics</Filter>
+    </ClInclude>
+    <ClInclude Include="SphereCollider.h">
+      <Filter>Components\Phyics</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIinputTab.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyCollider.h">
+      <Filter>Components\Phyics</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>Components\Phyics</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteRenderer.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Prefabs\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerMovement.h">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="PhysicsEngine.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SpriteManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIToggle.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObjectManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFollower.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerAnimationHandler.h">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerCombat.h">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Damageable.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Crawlid.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy01.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Gruzzer.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy03.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy02.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="TikTik.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Level01.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy05.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="HuskBully.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy06.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Goam.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableWeed.h">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableBarrel.h">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableCar.h">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableSpear.h">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleSystem.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemySplashParticleEffect.h">
+      <Filter>Prefabs\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Curve.h">
+      <Filter>Curves</Filter>
+    </ClInclude>
+    <ClInclude Include="Lift.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy04.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="AspidHunter.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableObject.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Level02.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level03.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerStats.h">
+      <Filter>Components\PlayerComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIimage.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinParticleObject.h">
+      <Filter>Prefabs\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerDataManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldFireLightParticles.h">
+      <Filter>Prefabs\VFX</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy07.h">
+      <Filter>Components\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Vengefly.h">
+      <Filter>Prefabs\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc01.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Cornifer.h">
+      <Filter>Prefabs\NPCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Level04.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level05.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="KillZone.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraZone.h">
+      <Filter>Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Level06.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="DestructableGeo.h">
+      <Filter>Prefabs\Destructables</Filter>
+    </ClInclude>
+    <ClInclude Include="Level07.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level09.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Level08.h">
+      <Filter>Levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Chair.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
